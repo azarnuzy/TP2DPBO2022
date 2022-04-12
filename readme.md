@@ -8,7 +8,7 @@
 
 Repositori ini dibuat sebagai latihan dari mata kuliah Desain Pemprograman Berorientasi Objek di UPI pada semester 4. Di dalamnya terdapat aplikasi Data Organisasi Mahasiswa yang mengimplementasi CRUD pada aplikasinya, program ini dibuat dengan menggunakan bahasa **PHP**.
 
-Materi latihan dari kode di repositori ini dapat di temukan di file  [Module 5 - Introduction to Java GUI.docx.pdf](https://github.com/azarnuzy/TP2DPBO2022.git)
+Materi latihan dari kode di repositori ini dapat di temukan di file  [Module 8 - PHP GUI With Multiple Table.docx.pdf](https://github.com/azarnuzy/TP2DPBO2022.git)
 
 ### Tools
 - XAMPP
