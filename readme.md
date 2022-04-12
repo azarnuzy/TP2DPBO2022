@@ -25,17 +25,17 @@ Untuk menjalankan aplikasi ini dapat diikuti instruksi sebagai berikut
 
 ### Result
 <p align="center">
+    <img src="https://github.com/azarnuzy/TP2DPBO2022/blob/master/screenshoot/home.jpg" style="height:500px;">
+</p>
+<p align="center">
     <img src="https://github.com/azarnuzy/TP2DPBO2022/blob/master/screenshoot/addData.jpg" style="height:500px;">
 </p>
 <p align="center">
-    <img src="https://github.com/azarnuzy/LATIHAN5DPBO2022/blob/master/screenshoot/addData.jpg" style="height:500px;">
+    <img src="https://github.com/azarnuzy/TP2DPBO2022/blob/master/screenshoot/updateData.jpg" style="height:500px;">
 </p>
 <p align="center">
-    <img src="https://github.com/azarnuzy/LATIHAN5DPBO2022/blob/master/screenshoot/updateData.jpg" style="height:500px;">
+    <img src="https://github.com/azarnuzy/TP2DPBO2022/blob/master/screenshoot/divisi.jpg" style="height:500px;">
 </p>
 <p align="center">
-    <img src="https://github.com/azarnuzy/LATIHAN5DPBO2022/blob/master/screenshoot/divisi.jpg" style="height:500px;">
-</p>
-<p align="center">
-    <img src="https://github.com/azarnuzy/LATIHAN5DPBO2022/blob/master/screenshoot/jabatan.jpg" style="height:500px;">
+    <img src="https://github.com/azarnuzy/TP2DPBO2022/blob/master/screenshoot/jabatan.jpg" style="height:500px;">
 </p>
