@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Scholarship Student" />
+  <meta name="keywords" content="Scholarship Student" />
+  <meta name="theme-color" content="#1A374D" />
+  <link rel="stylesheet" href="./style/style.css?v=<?php echo time(); ?>" />
+  <link rel="stylesheet" href="./style/detail.css?v=<?php echo time(); ?>" />
+  <link rel="stylesheet" href="./style/responsive.css?v=<?php echo time(); ?>" />
+  <link rel="stylesheet" href="./style/normalize.css?v=<?php echo time(); ?>" />
+  <link rel="stylesheet" href="./style/spinner.css?v=<?php echo time(); ?>" />
+  <link rel="icon" href="./favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+  <title>Data Organisasi Mahasiswa</title>
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Main Content</a>
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__title" tabindex="0">Data ORMAWA</h1>
+    </div>
+    <div class="hamburger-menu">
+      <button class="hamburger-menu__icon" id="menu" aria-label="button menu dropdown on mobile" type="button">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+    <nav id="drawer" class="nav open">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="./index.php">Halaman Utama</a></li>
+        <li class="nav__item"><a href="./divisi.php">Divisi</a></li>
+        <li class="nav__item"><a href="./jabatan.php">Jabatan</a></li>
+        <li class="nav__item">
+          <a href="https://github.com/azarnuzy" target="_blank">Tentang</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__title" tabindex="0">
+        Selamat Datang di Data Organisasi Mahasiswa
+      </h1>
+      <a class="hero__button" href="./addData.php">Tambah Data Pengurus</a>
+    </div>
+  </div>
+  <main id="main-content" tabindex="0">
+    <div class="container">
+      <div id="loading"></div>
+      <div class="explore__content">
+        <h2 tabindex="0" class="main-content__title">Telurusi Pengurus</h2>
+        <div id="explore-items" class="explore-items">DataPengurus</div>
+      </div>
+    </div>
+  </main>
+  <footer tabindex="0">
+    <ul>
+      <li>Copyrigth © 2022 - Data ORMAWA</li>
+    </ul>
+  </footer>
+  <script src="./script/index.js"></script>
+</body>
+
+</html>

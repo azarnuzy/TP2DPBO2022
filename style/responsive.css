@@ -1,0 +1,158 @@
+@media only screen and (max-width: 480px) {
+  .header {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .hero {
+    background-image: linear-gradient(
+        115deg,
+        rgba(230, 230, 230, 0.2),
+        rgba(177, 177, 177, 0.3)
+      ),
+      url('../images/hore.jpg');
+  }
+
+  .nav {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    transition: 0.3s ease-in;
+  }
+
+  .open {
+    display: none;
+    max-height: 0;
+  }
+
+  .nav__list {
+    text-align: center;
+  }
+  .hamburger-menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 4vw;
+  }
+
+  .hamburger-menu__icon {
+    background-color: unset;
+    border: 0;
+    color: white;
+    cursor: pointer;
+  }
+
+  .hamburger-menu i {
+    font-size: 44px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .header__title {
+    font-size: 2.5em;
+  }
+
+  .nav__item {
+    font-size: 2em;
+    padding: 24px 5px;
+  }
+
+  .explore-detail {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hero {
+    background-image: linear-gradient(
+        115deg,
+        rgba(230, 230, 230, 0.2),
+        rgba(177, 177, 177, 0.3)
+      ),
+      url('../images/hore.jpg');
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .nav__item {
+    font-size: 24px;
+    padding: 24px 7px;
+  }
+
+  .header__title {
+    font-size: 2.3em;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .explore-detail {
+    display: grid;
+    gap: 10px;
+  }
+
+  .header__title {
+    font-size: 2em;
+  }
+
+  .header__inner {
+    padding-left: 5vw;
+  }
+
+  .nav__item {
+    font-size: 1.5em;
+  }
+
+  .nav__list {
+    padding-right: 5vw;
+  }
+
+  .explore-detail {
+    grid-template-columns: 1fr 1.5fr 1fr;
+  }
+
+  .explore-detail-divisi {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .explore-items {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .header__title {
+    font-size: 3em;
+  }
+
+  .nav__item {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 992px) {
+  .explore-items {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    gap: 14px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    max-width: 1200px;
+    display: block;
+    margin: auto auto;
+  }
+
+  .hero {
+    background-image: linear-gradient(
+        115deg,
+        rgba(230, 230, 230, 0.2),
+        rgba(177, 177, 177, 0.3)
+      ),
+      url('../images/hore.jpg');
+  }
+}

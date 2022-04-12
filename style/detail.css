@@ -1,0 +1,129 @@
+ul {
+  padding: 0;
+}
+
+.explore-detail {
+  margin-top: 10px;
+}
+
+.detail-explore__info {
+  text-align: left;
+}
+
+.detail-explore__info li {
+  position: relative;
+  display: block;
+  padding: 0.6em;
+  text-decoration: none;
+}
+
+.detail-explore__title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 24px;
+  line-height: 3em;
+}
+
+.detail-explore__menu {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.detail-explore__menu li {
+  position: relative;
+  display: block;
+  padding: 0.6em;
+  text-decoration: none;
+}
+
+.detail-explore__menu h4 {
+  font-weight: bold;
+  font-size: 1.37em;
+}
+
+.category {
+  padding: 0.3em 1em;
+  color: white;
+  background-color: #1a374d;
+  margin-right: 2px;
+  border: 1px solid transparent;
+  border-radius: 0 0 10px 0;
+}
+
+.detail-explore__review {
+  max-width: 100%;
+  font-size: 1em;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+}
+
+.detail-explore__review-item {
+  margin-bottom: 1.5em;
+  padding: 1em 1em;
+}
+
+.detail-explore__review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1em;
+  border-bottom: 1px solid #1a374d;
+}
+
+.detail-explore__review-name {
+  font-weight: bold;
+  display: flex;
+  color: #1a374d;
+  font-size: 14px;
+  align-items: center;
+}
+
+.detail-explore__review-date {
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+.detail-explore__review-body {
+  padding: 1em;
+  text-align: left;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 6px 0 16px;
+  resize: vertical;
+}
+
+input[type='text']:focus {
+  outline: none !important;
+  border: 1px solid #1a374d;
+}
+
+.form-label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: #1a374d;
+  font-size: 14px;
+}
+
+.form-box {
+  text-align: left;
+}
+
+.submit-btn {
+  background-color: #1a374d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 5%;
+}
